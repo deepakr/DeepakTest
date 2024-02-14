@@ -15,7 +15,7 @@ public class RequestResponse {
     Response response;
 
     public void getWeatherData(String city, String aqi) {
-        Map<String, String> params = new HashMap<String, String>();
+        Map<String, String> params = new HashMap<>();
         params.put("key", "ac779658445f491ba72170509241402");
         params.put("q", city);
         params.put("aqi", aqi);
